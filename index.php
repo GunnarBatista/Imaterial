@@ -6,7 +6,7 @@
   <link rel="Website Icon" type="png" href="src/logo.png">
 </head>
 <body>
-  <?php include 'header.php'?>
+  <?php include 'header.php;'?>
   <main>
     <div class="content">
       <div class="content-title">
@@ -93,6 +93,6 @@
         <h1>MELHOR LOJA DA REGIÃO</h1>
     </div>
   </main>
-<?php include 'footer.php'>
+<?php include 'footer.php;'>
 </body>
 </html>
