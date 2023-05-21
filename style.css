@@ -1,0 +1,211 @@
+.header {
+    justify-content: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    max-width: 100vw;
+    background-color: #a85f3a;
+    box-sizing: 0;
+}
+body {
+    margin: 0 !important;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #8e4925;
+}
+.footer {
+    background-color: #4180a6;
+    position: relative;
+    bottom: 0;
+    max-width: 100vw;
+    height: 25vh;
+    display: block;
+}
+.titulo {
+    padding: 0 0 0 50px;
+    color: white;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    vertical-align: middle;
+    padding: 5px 10px 5px 10px;
+}
+.content-buttons {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.header-title {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.header-buttons {
+    color: white;
+    list-style-type: none;
+    padding-left: 2rem;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+.btn-header {
+    width: 100px;
+    height: 50px;
+    background-color: #00000030;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+}
+.btn-header:hover {
+    background-color: #00000050;
+}
+main {
+    display: flex;
+    min-height: 75vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content {
+    max-width: 75vw;
+    width: 75vw;
+    background: #7f3c19;
+    border-radius: 25px;
+    margin: 2rem 0;
+    min-height: 10px;
+    align-items: center;
+    text-align: center;
+}
+.content-contact{
+    display: flex;
+    max-width: 75vw;
+    width: 75vw;
+    background: #7f3c19;
+    align-items: center;
+    border-radius: 25px;
+    margin: 2rem 0;
+    flex-direction: column;
+}
+.content-contact h1{
+    color: white;
+}
+.card {
+    flex-basis: calc(50% - 25px); /* 50% de largura - 10px de espaçamento */
+    margin-bottom: 20px;
+}
+.card-index {
+    flex-basis: calc(25% - 25px); /* 50% de largura - 10px de espaçamento */
+    margin-bottom: 20px;
+}
+
+.card-head {
+    position: relative;
+    height: 252px;
+    background: #fa782e;
+    background: -moz-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+    background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+    background: linear-gradient(135deg, #fa782e 8%, #c82930 83%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    border-radius: 25px 25px 0 0;
+}
+.product-img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.card-body {
+    height: 255px;
+    background: #fff;
+    border-radius: 0 0 25px 25px;
+  }
+.content-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-content-img{
+}
+.product-price {
+    position: relative;
+    background: #11e95b;
+    padding: 7px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 7px;
+    box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+    margin: 10% 0 0 0;
+  }
+  .product-price b {
+    margin-left: 5px;
+  }
+  .product-properties{
+    display: flex;
+    justify-content: end;
+  }
+  .product-desc{
+    display: grid;
+  }
+.content-title{
+    font-weight: 900;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    .card {
+      flex-basis: 100%; /* Em dispositivos móveis, ocupar 100% da largura */
+    }
+  }
+
+.list-itens{
+    display: contents;
+}
+
+.form{
+    width: 50%;
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .submit{
+    border-radius: 15px;
+    border: 0;
+    background: lightgreen;
+    font-weight: bold;
+    width: 7rem;
+    height: 3rem;
+    font-size: large;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }

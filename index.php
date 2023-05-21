@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head>
+<html lang="pt-BR">
+<head>
   <link rel="stylesheet" href="style.css">
   <title>Imaterial</title>
   <link rel="Website Icon" type="png" href="src/logo.png">
